@@ -1,5 +1,6 @@
 header {
-  background-image: url(/photo/people.png);
+  background-image: url(./photo/people.png);
+  background-repeat: no-repeat;
   height: 542px;
   margin-top: -19px;
 }
@@ -8,7 +9,7 @@ header {
   padding: 0;
   gap: 9px;
   margin-left: 70px;
-  margin-top: 19px;
+  padding-top: 19px;
 }
 .header-btn__btn {
   background: none;
@@ -70,7 +71,7 @@ main {
   text-align: center;
   color: #333333;
   font-size: 22px;
-  margin-top: 61px;
+  padding-top: 61px;
 }
 
 .main-list {
